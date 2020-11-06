@@ -1,0 +1,14 @@
+/* 
+  NDAuthentications.strings
+  NDAuthentications
+
+  Created by Nguyen Duc Hiep on 3/9/20.
+  Copyright © 2020 Neodata Co., Ltd. All rights reserved.
+*/
+
+"Enter the Email" = "Enter the Email";
+"Enter the Password" = "Enter the Password";
+"Login" = "Login";
+"Register" = "Register";
+"Not register yet? Create an account" = "Not register yet? Create an account";
+"Have got an account already? Just login" = "Have got an account already? Just login";

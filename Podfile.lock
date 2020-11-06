@@ -1,0 +1,137 @@
+PODS:
+  - FirebaseAuth (7.0.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GTMSessionFetcher/Core (~> 1.4)
+  - FirebaseCore (7.0.0):
+    - FirebaseCoreDiagnostics (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.0.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30906.0)
+  - GoogleDataTransport (8.0.0):
+    - nanopb (~> 2.30906.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.0.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.0.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.0.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.0.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.0.0)"
+  - GoogleUtilities/Reachability (7.0.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.5.0)
+  - nanopb (2.30906.0):
+    - nanopb/decode (= 2.30906.0)
+    - nanopb/encode (= 2.30906.0)
+  - nanopb/decode (2.30906.0)
+  - nanopb/encode (2.30906.0)
+  - NDAuthentications/Abstracts (0.1):
+    - NDAuthentications/Core
+    - NDMVVM (~> 0.0.3)
+  - NDAuthentications/Core (0.1)
+  - NDAuthentications/Firebase (0.1):
+    - FirebaseAuth (~> 7)
+    - NDAuthentications/Objects
+  - NDAuthentications/Firebase_Swift (0.1):
+    - NDAuthentications/Firebase
+  - NDAuthentications/Objects (0.1):
+    - NDAuthentications/Abstracts
+    - NDAuthentications/Resources
+    - NDAutolayoutUtils (~> 0.0.6)
+    - NDLog (~> 0.0.5)
+    - NDUtils/Foundation (~> 0.0.4.4)
+    - NDUtils/libextobjc (~> 0.0.4.4)
+    - NDUtils/objc (~> 0.0.4.4)
+    - NDUtils/UIKit (~> 0.0.4.4)
+  - NDAuthentications/Resources (0.1)
+  - NDAuthentications/Swift (0.1):
+    - NDAuthentications/Firebase_Swift
+  - NDAutolayoutUtils (0.0.6.1):
+    - NDLog (~> 0.0.5)
+    - NDUtils/Foundation (~> 0.0.4)
+  - NDLog (0.0.5)
+  - NDManualObjects (0.0.7):
+    - NDLog (~> 0.0.5)
+    - NDUtils/objc (~> 0.0.4)
+  - NDModificationOperators_Swift (0.0.2)
+  - NDMVVM (0.0.3.1):
+    - NDLog (~> 0.0.5)
+    - NDManualObjects (~> 0.0.7)
+    - NDUtils/objc (~> 0.0.4)
+  - NDUtils/Core (0.0.4.4)
+  - NDUtils/Foundation (0.0.4.4):
+    - NDLog (~> 0.0.5)
+    - NDUtils/Core
+  - NDUtils/libextobjc (0.0.4.4):
+    - NDUtils/Core
+  - NDUtils/objc (0.0.4.4):
+    - NDLog (~> 0.0.5)
+    - NDUtils/Core
+  - NDUtils/QuartzCore (0.0.4.4):
+    - NDUtils/objc
+  - NDUtils/UIKit (0.0.4.4):
+    - NDUtils/QuartzCore
+  - PromisesObjC (1.2.11)
+
+DEPENDENCIES:
+  - NDAuthentications/Swift (from `.`)
+  - NDModificationOperators_Swift
+  - NDMVVM (from `../NDMVVM`)
+  - NDUtils/Foundation (from `../NDUtils`)
+  - NDUtils/objc (from `../NDUtils`)
+  - NDUtils/UIKit (from `../NDUtils`)
+
+SPEC REPOS:
+  trunk:
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - nanopb
+    - NDAutolayoutUtils
+    - NDLog
+    - NDManualObjects
+    - NDModificationOperators_Swift
+    - PromisesObjC
+
+EXTERNAL SOURCES:
+  NDAuthentications:
+    :path: "."
+  NDMVVM:
+    :path: "../NDMVVM"
+  NDUtils:
+    :path: "../NDUtils"
+
+SPEC CHECKSUMS:
+  FirebaseAuth: 228dd0faa5b5263eaa8c63518b16faef438289a3
+  FirebaseCore: cf3122185fce1cf71cedbbc498ea84d2b3e7cb69
+  FirebaseCoreDiagnostics: 5f4aa04fdb04923693cc704c7ef9158bdf41a48b
+  GoogleDataTransport: 6ce8004a961db1b905740d7be106c61ba7e89c21
+  GoogleUtilities: ffb2f4159f2c897c6e8992bd7fbcdef8a300589c
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
+  NDAuthentications: f94ae6db1a1aff491371b5ff58ab140d85fa6b55
+  NDAutolayoutUtils: 8aa66facbd5a10f1f2149c92043ecc9f78713b11
+  NDLog: 2d478a5bc74f17ee56fea08adb6dacdaa36a07e6
+  NDManualObjects: 521b421751b3be3b8553283c56574481e7692da6
+  NDModificationOperators_Swift: 63c777c136574ba6d11779a457f75a14271b45a2
+  NDMVVM: be6b368525d2839f791a4f4f3cec497f6ca97737
+  NDUtils: 36e0437d499184c6029e8e4b5b3bc4589072c607
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+
+PODFILE CHECKSUM: 7aac86bce6e74a336f4362fb83a491b513135e25
+
+COCOAPODS: 1.9.3

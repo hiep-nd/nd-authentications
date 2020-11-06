@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Samples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJo-yP-itO">
+                                <rect key="frame" x="191" y="44" width="32" height="30"/>
+                                <state key="normal" title="Auth"/>
+                                <connections>
+                                    <action selector="authButtonTouchUpInside" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuE-7f-10b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ax-Nc-8cb">
+                                <rect key="frame" x="159.5" y="90" width="95" height="30"/>
+                                <state key="normal" title="Firebase Auth"/>
+                                <connections>
+                                    <action selector="firebaseAuthButtonTouchUpInside" destination="BYZ-38-t0r" eventType="touchUpInside" id="3g8-NX-UTM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2Ax-Nc-8cb" firstAttribute="top" secondItem="XJo-yP-itO" secondAttribute="bottom" constant="16" id="BEb-15-T8o"/>
+                            <constraint firstItem="2Ax-Nc-8cb" firstAttribute="centerX" secondItem="XJo-yP-itO" secondAttribute="centerX" id="FIu-SJ-Ezk"/>
+                            <constraint firstItem="XJo-yP-itO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kHw-3f-hzD"/>
+                            <constraint firstItem="XJo-yP-itO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vR6-OZ-83F"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="129"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
